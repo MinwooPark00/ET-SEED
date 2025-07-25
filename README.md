@@ -31,12 +31,24 @@ Download the Isaac Gym Preview release from the [website](https://developer.nvid
 3. Install environment: Use Mambaforge (strongly recommended):
     ```
     mamba env create -f conda_environment.yaml
-    conda activate equi
+    conda activate etseed
+    pip install torch==2.1.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+    pip install pandas pyyaml pydantic matplotlib
+    pip install dgl -f https://data.dgl.ai/wheels/cu118/repo.html
+    pip install torch-scatter -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+    pip install torch-cluster -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+    pip install transforms3d potpourri3d open3d e3nn
     ```
     or use Anaconda (not recommended):
     ```
     conda env create -f conda_environment.yaml
-    conda activate equi
+    conda activate etseed
+    pip install torch==2.1.0+cu118 --index-url https://download.pytorch.org/whl/cu118
+    pip install pandas pyyaml pydantic matplotlib
+    pip install dgl -f https://data.dgl.ai/wheels/cu118/repo.html
+    pip install torch-scatter -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+    pip install torch-cluster -f https://data.pyg.org/whl/torch-2.1.0+cu118.html
+    pip install transforms3d potpourri3d open3d e3nn
     ```
 
 ### 🦾 Equivariance Check
