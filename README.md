@@ -59,9 +59,9 @@ python test_equiv.py
 
 
 ### 📚 Demonstration Generation
-The following code generates demonstrations for simulated environments, you can change [toy_env.py] with other environments files and Replace [task_name], [num_traj] and [output_file] with your choices.
+The following code generates demonstrations for simulated environments, you can change [toy_env.py] with other environments files and Replace [task_name], [num_trajs] and [output_file] with your choices.
 ```
-python etseed/env/toy_env.py --num_traj=50 --output_file=rotate_triangle.npy --task_name=rotate_triangle
+python etseed/env/toy_env.py --num_trajs=50 --output_file=rotate_triangle.npy --task_name=rotate_triangle
 ```
 
 **Tips:** if you want to change the setting of the simulation environment, you can refer to the [config/README.md] file.

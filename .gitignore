@@ -1,6 +1,7 @@
 # Custom
 *.zip
 log/
+wandb/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
